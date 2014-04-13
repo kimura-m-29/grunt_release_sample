@@ -9,4 +9,4 @@ gruntを使ったバージョン番号埋め込み、ZIPファイル作成のサ
 
 # バージョン番号付きでzip生成
 1. `grunt compress:archive`を実行する
-2. dist/archive.【package.jsonのversion】.zipが生成される
+2. 不要なファイルを除く、プロジェクト内のファイルを固めたdist/archive.【package.jsonのversion】.zipが生成される
